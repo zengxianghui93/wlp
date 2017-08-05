@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* body{margin:0 auto;padding:0;color:#000;font-size:12px;line-height:24px;text-align:left;font-family:����;border:0;text-decoration:none;  }
+body,  h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;padding:0; list-style:none; line-height:22px; font-size:12px;} */
+h1{ font-size:14px;line-height:22px; height:auto;}
+a {
+    border-radius: 2px 2px 2px 2px;
+    outline: 0 none;
+    padding: 2px 2px 0;
+    
+}
+a:hover{color:#c00}
+/* a:visited{color:#00c} */
+
+
+/*ȫ����ʽ:����****************************************/
+
+/*����ͷ����ʽ*******************************************************/
+
+#header { width:98%; margin-left:1%;
+    background-color:#F5F5F5;
+    border-bottom: 1px solid #CCCCCC;
+    height: 22px;
+    line-height: 22px;}
+
+a.hd1ink1,a.hd1ink2,span.hd1ine1{float:left;display:block;margin-right:4px;}
+a.hd1ink3,a.hd1ink4,a.hd1ink5,span.hd1ine2,span.hd1ine3,span.hd1ine4{float:right;display:block;margin-left:4px}
+#hdr{float:right}
+#hdr span{margin-left:5px;margin-right:5px;padding:2px;}
+
+#hd{ position:relative;z-index:5000;}
+#hd table.hd{height:80px;width:100%;}
+#hd table.hd td.logo{width:200px;vertical-align:middle}
+
+
+#hd .tab{width:100%;float:left;margin-top:10px;}
+#hd li{height:36px;}
+#hd .tab ul li span{display:block;padding:3px 0 1px}
+#hd .tab ul li a.current span{background-color:#356aa0;color:#FFF;padding:3px 5px 1px}
+#hd .tab ul li a{padding-bottom:7px;display:block;margin:0 5px}
+#hd .tab ul li a.current{text-decoration:none;background-image:url(/resource/img/downarrow.gif);background-position:center bottom;background-repeat:no-repeat}
+
+#doc{margin:0;}
+#doc a:link{color:#00c;text-decoration:underline;padding:2px;}
+#doc a:visited{color:purple;text-decoration:underline;padding:2px;}
+#doc a:active{color:#c00;text-decoration:underline;padding:2px;}
+
+/*loge**************/
+#logo_nav{ width:75%; margin-left:13%; margin:0 auto; height:64px; margin-top:22px; min-width:960px;}
+
+
+
+.bgusr{background-color:#f5f5f5;border-bottom:1px #ccc solid;height:22px;line-height:22px}
+
+
+
+/**��Ҫ����************************************************/
+#content{ width:75%; margin-left:13%; margin:0 auto; background-color:#98b9e0; height:auto; min-height:600px; margin-bottom:20px; min-width:960px;}
+/**���˵���************************************************/
+#export{  padding:0; }
+#export_left{ width:141px; float:left;}
+#export_left li{font-family:΢���ź�; background:url(images/bb.gif) no-repeat center; padding-left:26px; height:35px; line-height:35px; margin-bottom:5px; font-weight:bold;cursor:pointer; margin-left:19px;}
+#export_left li:hover{font-weight:bold;  background:#FFF; color:#145994;}
+#export_left li:visited{font-weight:bold; color:#800080;}
+#export_left li.export_current{ color:#000;  background:#fff; padding:4px 0 4px 14px; margin-bottom:3px; border:1px solid #1c6cbe;font-weight:bold;border-right:none;}
+
+
+.tit{ font-family:΢���ź�; font-size:16px; font-weight:bold; text-align:center; height:64px; line-height:64px;}
+.img{ margin-bottom:19px;}
+/**�Ҳ�����************************************************/
+#export_right{min-height:600px !important; border:3px solid #98b9e0; border-left:none; margin-left:141px; background:#fff; padding:5px 2%; min-width:819px; }
+#Public{ background:#e0e9f8; border:1px solid #c9c7c7; min-height:48px; height:auto; font-family:΢���ź�; font-size:12px; padding-left:3px; min-width:756px; margin-bottom:18px;}
+.searc{ float:left; width:8%;}
+
+.Retrieval { width:92%;float:right;}
+.Retrieval ul{ width:100%;float:right; }
+.Retrieval li{  min-width:130px; height:21px;line-height:21px; text-align:left; margin:8px;  border:1px solid #aba8a8; display:inline;  }
+.Retrieval li a { height:21px; width:130px; line-height:21px; padding: 0  8px; }
+.Retrieval li a:hover{ height:21px; width:130px; line-height:21px; color:#145994; background-color:#fff; padding: 0  8px; }
+.Selected1{ height:21px; width:130px; line-height:21px; color:#145994; background-color:#fff; padding: 0  8px; }
+
+.cl{ color:#F00; font-weight:bold; padding-left:3px; text-decoration:none;}
+.cl a { color:#F00; font-weight:bold; padding-left:3px; text-decoration:none;}
+
+.Number a{ color:#e70033; text-decoration:none;}
+.Prompt{ float:left; width:100%;}
+.Select{ margin:0 10px;}
+.Check{ width:60%; float:left; height:28px; line-height:28px;} 
+.seall{ color:#145994; font-weight:bold; font-size:13px;}
+.export_qingkong{ width:18%; float:right; cursor:pointer; min-width:112px; height:28px; line-height:28px;}
+
+
+/*�ο����׸�ʽ*************/
+.periodical_p{ border-bottom:1px solid #ddd; margin-bottom:15px; padding-bottom:1px;}
+.delitem{ color:#0F398B; cursor:pointer; margin-left:10px; font-size:12px; text-decoration:underline; line-height:20px;}
+.Author{ padding-left:26px; height:18px;}
+
+
+/*refworks*************/
+
+
+/*�Զ����ʽ************/
+.bt{ margin-bottom:15px; width:100%;}
+.export_ul{background-color:#eff5fb;border:1px solid #cddcf1; width:100%; display:table; height:auto; margin-bottom:10px; }
+.export_ul ul{ padding:5px 10px; float:left;  width:100%;height:auto;}
+.export_ul ul li{ float:left; padding-right:5px; }
+.export_ul ul li.li5{ font-weight:bold; width:70px; padding-right:0; }
+.export_ul ul li checkbox:hover{ background:none;border:0;}
+
+.toolbar{ width:100%;}
+.clearall{CLEAR:both;display:none;}
+
+ /*ҳ����ʽ*****************/
+#pag{ width:100%; height:30px; margin-top:10px;} 
+DIV.digg { padding:3px 3px 3px 0; margin:3px 3px 3px 0;}
+DIV.digg A { border:#aaaadd 1px solid; margin:2px; padding:2px 8px; COLOR: #000099; TEXT-DECORATION: none}
+DIV.digg A:hover { border: #000099 1px solid;}
+DIV.digg A:active {border: #000099 1px solid;}
+DIV.digg SPAN.current { padding:2px 8px;border: #000099 1px solid;FONT-WEIGHT: bold; MARGIN: 2px;  COLOR: #fff; BACKGROUND-COLOR: #000099; }
+DIV.digg SPAN.disabled { padding:2px 8px;border: #eee 1px solid;MARGIN: 2px; COLOR: #ddd;}
+
+/**�ײ�***********************************************/
+#ft{clear:both;text-align:center;border-top:1px #ccc dotted;color:#999;font-size:12px; padding:2px;}
+#ft p{margin:8px}
+
+
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px;}
+
+/*****ɾ����*************************/
+.deleteCurrRec {
+    float: right;
+    margin-right: 10px;
+    border:0px;
+}

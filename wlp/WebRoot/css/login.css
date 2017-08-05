@@ -1,0 +1,183 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; border: none;white-space:discard;}
+body { font-size:14px; color:#000; font-family:"微软雅黑"; background:url(../images/loginBg.png) no-repeat top center; font-weight: normal;}
+fieldset, img { border:0; }
+ol,ul,li { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+img{ display:inline-block; }
+input, button, select, textarea { outline:none; } 
+textarea { resize:none; } /*/禁用了文本的拖拉，尤其在谷歌下*/
+p{ text-justify:distribute;}/*//为了使文本段落左右两边对齐*/
+/*======== Link ========*/
+a { color: #000; text-decoration:none; }
+body { background:url(../images/loginBg.jpg) repeat; background-size:100%;}
+.LSXY2016_tit form{ display:inline-block; margin-bottom:20px; position:relative; overflow:hidden; }
+
+.LSXY2016_tit .bg{ width:350px; height:260px; background:rgba(255,255,255,0.5); border:1px solid rgba(255,255,255,1); text-align:center; padding-top:50px;  position:absolute; left:50%; top:50%; margin-left:-175px; margin-top:-115px;}
+.LSXY2016_tit .bg input{ width:245px; height:40px; border:1px solid #25a5f6; padding-left:37px; font-size:16px; color:#ccc; }
+.LSXY2016_tit .bg span{ display:inline-block; width:30px; height:30px; position:absolute; top:5px; left:2px; }
+.LSXY2016_tit .bg .userIcon{ background:url(../images/user.png) no-repeat; }
+.LSXY2016_tit .bg .pwdIcon{ background:url(../images/pwd.png) no-repeat; }
+
+
+
+
+
+/*#################  2017-03-17  ###################*/
+html{
+	height: 100%;
+	background: #0C0704 url(../images/New_HTlogin_back.jpg) no-repeat top center;
+}
+@media (min-height: 700px){
+	html{
+		background-size: auto 100%;
+	}
+}
+.LSXY2016_tit .bg{
+	top: 350px;
+	color: #333333;
+	background: rgba(255,255,255,0.15);
+	border: 0;
+	padding: 20px 25px 0 25px;
+	margin-left: -200px;
+}
+.LSXY2016_tit .bg .userIcon{
+	background: url(../images/user.png) no-repeat 5px center;
+	background-size: auto 60%;
+}
+.LSXY2016_tit .bg .pwdIcon{
+	background: url(../images/pwd.png) no-repeat 5px center;
+	background-size: auto 60%;
+}
+.LSXY2016_tit .bg input{
+	border: 0;
+	margin: 8px 0;
+}
+
+/*#################  2017-03-21  ###################*/
+html, body{
+	background: #FCFCFC;
+}
+
+.YJ2016_NewLogin{
+	width: 900px;
+	margin: 80px auto 60px auto;
+	min-height: 350px;
+}
+.YJ2016_NewLogin .login_left{
+	float: left;
+	width: 360px;
+	margin-left: 60px;
+	padding-top: 40px;
+}
+.YJ2016_NewLogin .login_right{
+	float: left;
+	background: url('../images/New_login_back.png') no-repeat 0 30px;
+	width: 330px;
+	height: 320px;
+}
+.YJ2016_NewLogin .login_right .tt{
+	line-height: 40px;
+	padding-left: 45px;
+	font-family: "Microsoft YaHei";
+	font-size: 30px;
+	color: #1A5B9D;
+}
+.YJ2016_NewLogin .login_left table{
+	width: auto;
+}
+.YJ2016_NewLogin .login_left table td{
+	line-height: 32px;
+	font-size: 15px;
+	color: #666666;
+	padding: 6px;
+	vertical-align: top;
+	text-align: left;
+}
+.YJ2016_NewLogin .login_left table .td1{
+	text-align: right;
+}
+.YJ2016_NewLogin .login_left table td input[type=text], .YJ2016_NewLogin .login_left table td input[type=password]{
+	background-color: #FFFFFF;
+	border: 1px #DDDDDD solid;
+	padding: 6px 10px;
+	font-size: 15px;
+	line-height: 18px;
+	width: 260px;
+	font-family: "Microsoft YaHei";
+}
+.YJ2016_NewLogin .login_left table td input.in_ID, .YJ2016_NewLogin .login_left table td input.in_Pwd{
+	background: #FFFFFF url('../images/user.png') no-repeat 9px center;
+	background-size: auto 50%;
+	padding: 10px 10px 10px 35px;
+	margin: 5px 0;
+	color: #AAAAAA;
+}
+.YJ2016_NewLogin .login_left table td input.in_Pwd{
+	background-image: url('../images/pwd.png');
+}
+.YJ2016_NewLogin .login_left table .td2{
+	text-align: center;
+	padding: 20px;
+}
+.YJ2016_NewLogin .login_left table td .a_login, .YJ2016_NewLogin .login_left table td .a_login:hover{
+	display: inline-block;
+	background: #2D98C6;
+	width: 160px;
+	height: 48px;
+	border-radius: 3px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.YJ2016_NewLogin .login_left2{
+	float: left;
+	width: 500px;
+	margin: 0;
+	padding: 0;
+}
+.YJ2016_NewLogin .login_left table td .ps{
+	line-height: 18px;
+	padding-top: 5px;
+	font-size: 13px;
+	color: #AAAAAA;
+}
+.YJ2016_NewLogin .login_left table td .red{
+	color: #FF0000;
+	font-weight: bold;
+	padding: 0 5px;
+}
+.YJ2016_NewLogin .login_left table td label{
+	margin-right: 25px;
+}
+.YJ2016_NewLogin .login_left table td input.btn1, .YJ2016_NewLogin .login_left table td input.btn2{
+	background: #0FCE3A;
+	border: 0;
+	width: 120px;
+	height: 45px;
+	border-radius: 3px;
+	padding-bottom: 2px;
+	margin: 0 0 0 10px;
+	text-align: center;
+	font-family: "Microsoft YaHei";
+	font-size: 17px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.YJ2016_NewLogin .login_left table td input.btn2{
+	background-color: #999999;
+}
+
+
+
+
+
+
+
+

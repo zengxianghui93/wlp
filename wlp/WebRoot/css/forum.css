@@ -1,0 +1,173 @@
+﻿/*################################  2016-11-11 论坛  #################################*/
+body{
+	background-color: #F1F1F1;
+}
+.SHDX2016_Form_topAll{
+	background-color: #0A6FB6;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	height:40px;
+}
+.SHDX2016_Form_topAll .tt{
+	float: left;
+	line-height: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.SHDX2016_Form_topAll .link{
+	display: inline-block;
+	width: auto;
+	white-space: nowrap;
+	float: right;
+	line-height: 15px;
+	padding-top: 15px;
+}
+.SHDX2016_Form_topAll .link a{
+	font-size: 13px;
+	color: #FFFFFF;
+	margin: 0 0 0 15px;
+}
+.SHDX2016_Form_topAll .link a:hover{
+	color: #00FFFF;
+}
+
+.SHDX2016_Form_bd{
+	margin: 20px;
+}
+
+.SHDX2016_Form_top{
+	background-color: #E8E8E8;
+	border-bottom: 1px #DDDDDD solid;
+	margin-bottom: 25px;
+	padding: 10px 20px;
+	line-height: 25px;
+	*zoom: 1;
+}
+.SHDX2016_Form_top:after{
+	content: "\200B";
+	clear: both;
+	display: block;
+	height: 0;
+}
+.SHDX2016_Form_top .tt{
+	font-size: 15px;
+	color: #AA0000;
+	font-weight: bold;
+}
+.SHDX2016_Form_top a{
+	float: right;
+	margin: 0 0 0 15px;
+	font-size: 13px;
+	color: #008400;
+}
+.SHDX2016_Form_top a:hover{
+	color: #FF0000;
+}
+
+.SHDX2016_Form_TB1{
+	width: 100%;
+	margin-bottom: 20px;
+	box-shadow: 0 0 7px 0 #BBBBBB;
+	background-color: #FFFFFF;
+}
+.SHDX2016_Form_TB1 th{
+	background-color: #F3F3F3;
+	border-bottom: 1px #CCCCCC solid;
+	line-height: 30px;
+	padding: 6px 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.SHDX2016_Form_TB1 td{
+	background-color: #FFFFFF;
+	border-bottom: 1px #E3E3E3 solid;
+	line-height: 25px;
+	padding: 10px;
+	text-align: center;
+	color: #555555;
+	vertical-align: top;
+}
+.SHDX2016_Form_TB1 td a{
+	color: #0066CC;
+	text-decoration: underline;
+}
+.SHDX2016_Form_TB1 td a:hover{
+	color: #FF0000;
+}
+.SHDX2016_Form_TB1 .txt{
+	background-color: #F3F3F3;
+	padding: 10px;
+}
+
+
+.page{
+	list-style: none;
+	text-align: center;
+	margin: 15px;
+	margin-bottom: 30px;
+}
+.page li{
+	display: inline-block;
+	width: auto;
+}
+.page input[type=text]{
+	width: 40px;
+}
+.page li a{
+	background-color: #FFFFFF;
+	border: 1px #DDDDDD solid;
+	color: #555555;
+	padding: 1px 5px 2px 5px;
+}
+.page li a:hover{
+	border: 1px #F5A5A5 solid;
+	color: #FF0000;
+	text-decoration: none;
+}
+.page .nomargin a{
+	background: #888888;
+	color: #FFFFFF;
+	padding: 2px 6px 3px 6px;
+	border: 0;
+}
+.page .nomargin a:hover{
+	background: #0A6FB6;
+	text-decoration: none;
+	color: #FFFFFF;
+	border: 0;
+}
+
+
+.SHDX2016_Form_TB2{
+	width: 80%;
+	margin: 0 auto 20px auto;
+	box-shadow: 0 0 7px 0 #BBBBBB;
+	background-color: #FFFFFF;
+}
+.SHDX2016_Form_TB2 td{
+	background-color: #FFFFFF;
+	border-bottom: 1px #E3E3E3 solid;
+	line-height: 25px;
+	padding: 12px 8px;
+	text-align: center;
+	color: #000000;
+	vertical-align: top;
+}
+.SHDX2016_Form_TB2 td a{
+	color: #0066CC;
+	text-decoration: underline;
+}
+.SHDX2016_Form_TB2 td a:hover{
+	color: #FF0000;
+}
+
+
+
+
+
+
+
+
